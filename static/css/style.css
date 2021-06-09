@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+body h1 a h2{
+  font-family: 'Source Code Pro', monospace!important;
+
+}
+.navigation .navigation-title{
+  text-transform: capitalize!important;
+  text-decoration: none!important;
+}
+h2{
+  font-weight:normal!important;
+}
+h1{
+  font-weight: normal!important;
+}
+ul{
+  padding-top: 30px!important;
+}

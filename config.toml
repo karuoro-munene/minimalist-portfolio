@@ -1,0 +1,92 @@
+baseURL = "http://cyprian.dev/"
+languageCode = "en-us"
+title = "Cyprian Munene"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+
+[params]
+favicon = "favicon.ico"
+author = "Cyprian (Ninja) Munene"
+description = "Cyprian Munene's Personal Website"
+keywords = "blog, developer, personal"
+info = "Software Engineer"
+avatarURL = "images/avatar.png"
+footerContent = ""
+dateFormat = "January 2, 2006"
+hideFooter = true
+hideCredits = false
+hideCopyright = false
+since = 2019
+rtl = false
+colorScheme = "dark"
+hideColorSchemeToggle = true
+# Series see also post count
+maxSeeAlsoItems = 5
+# Enable Twemoji
+enableTwemoji = false
+# Custom CSS
+customCSS = ["css/style.css"]
+# Custom SCSS
+customSCSS = []
+# Custom JS
+customJS = []
+
+# If you want to implement a Content-Security-Policy, add this section
+[params.csp]
+childsrc = ["'self'"]
+fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+formaction = ["'self'"]
+framesrc = ["'self'"]
+imgsrc = ["'self'"]
+objectsrc = ["'none'"]
+stylesrc = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://fonts.googleapis.com/",
+  "https://cdn.jsdelivr.net/"
+]
+scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
+prefetchsrc = ["'self'"]
+# connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
+connectsrc = ["'self'", "https://www.google-analytics.com"]
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Gmail"
+icon = "fa fa-google"
+weight = 1
+url = "mailto:munenecyp@gmail.com"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github"
+weight = 2
+url = "https://github.com/MercurialMune/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin"
+weight = 3
+url = "https://www.linkedin.com/in/karuoromunene/"
+
+[[params.social]]
+name = "Email"
+icon = "fa fa-envelope"
+weight = 4
+url = "mailto:hi@cyprian.dev"
+
+[[params.social]]
+name = "Stackoverflow"
+icon = "fa fa-stack-overflow"
+weight = 5
+url = "https://stackoverflow.com/users/11117929/mercurial"
