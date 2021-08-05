@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+::-webkit-scrollbar{
+	width: 5px;
+  height: 5px;
+}
 
+::-webkit-scrollbar-track-piece{
+	background-color: #FFF;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #CBCBCB;
+	outline: 1px solid #FFF;
+	outline-offset: -1px;
+	border: .1px solid #B7B7B7;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #909090;
+}
 body h1 a h2{
   font-family: 'Source Code Pro', monospace!important;
 
@@ -17,3 +35,10 @@ h1{
 ul{
   padding-top: 30px!important;
 }
+ul.navigation-list{
+  padding-top: 0px!important;
+}
+a.navigation-link{
+  text-decoration: none!important;
+}
+pre{background-color:black!important;}
